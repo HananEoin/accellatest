@@ -26,6 +26,10 @@ public class CommandLine implements CommandLineRunner {
     public void run(String... args) throws Exception {
         boolean finished = false;
 
+        System.out.println("\n\n\n");
+        System.out.println("Welcome to Person Manager");
+        System.out.println("--------------------------");
+
         System.out.println("Enter commands below:");
 
         while(!finished){
